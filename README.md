@@ -1,11 +1,20 @@
-# Anime Web Platform
+# GogoAnime-RE
 
-A web-based anime browsing and streaming project.
+A vanilla PHP CMS for building anime streaming platforms with external video embedding.
 
 ## Overview
 
-This repository contains the source code and project files for the application.
+A PHP-based anime content management system featuring an admin panel, anime detail pages, and deployment tooling. Video content is embedded from external sources.
+
+## Documentation
+
+The repository includes detailed project docs:
+
+- `ADMIN_GUIDE.md` — admin panel usage
+- `ARCHITECTURE.md` — system architecture
+- `INSTALLATION.md` / `CONFIGURATION.md` — setup and configuration
+- `SECURITY.md` / `TROUBLESHOOTING.md` — security notes and troubleshooting
 
 ## Setup
 
-Use the dependency and configuration files included in the repository to install and run the project locally.
+Deploy to a PHP-capable web server (`.htaccess` included for Apache). Install and configuration steps are covered in `INSTALLATION.md` and `CONFIGURATION.md`.
